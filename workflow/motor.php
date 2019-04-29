@@ -24,7 +24,7 @@ else
 
 
 session_start();
-if ($filas['codP']==$_SESSION["codRol"])
+if ($filas['codR']==$_SESSION["codRol"])
 	header('Location: '.'flujo.php?codflujo='.$codflujo.'&codproceso='.$codproceso);
 else 
 	echo "No tiene privilegios";
